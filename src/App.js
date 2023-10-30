@@ -3,13 +3,14 @@ import CampsiteLists from './features/campsites/CampsitesList';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import CampsiteDirectoryPage from './pages/CampsitesDirectoryPage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CampsiteLists />
+      <CampsiteDirectoryPage />
       <Footer />
     </div>
   );
